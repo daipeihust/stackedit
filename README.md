@@ -1,4 +1,4 @@
-- sendTokenWithGameNote 和 sendTokenWithCondition 中对应的参数有哪些
+- sendTokenWithGameNote 和 sendTokenWithCondition 中对应 payment ID 的参数是什么
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDI0NzZdfQ==
+eyJoaXN0b3J5IjpbLTg3MTYxOTAzNl19
 -->
