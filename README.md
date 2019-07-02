@@ -55,10 +55,10 @@ Optional(["historyId": Optional("7256A1E0-D3D6-4EEB-AEDC-32DE1ACBAE77"), "status
 ### response
 
 ```json
-
+Optional("{"error":{"status":400,"code":10017,"message":"Wrong timestamp: latest timestamp is 1562080531, request timestamp is 1562080531"},"success":false}")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5Mzg5Njk5LC0xNjAyNDQxMDMsOTM3Mj
+eyJoaXN0b3J5IjpbNDkwNDgxMzc0LC0xNjAyNDQxMDMsOTM3Mj
 g5NywtMTM2NzgzMjMxNSw3NzczMjU2MzEsNjM3MDI2OTY3LDE4
 MzU0MTYyMzMsLTg3MTYxOTAzNl19
 -->
