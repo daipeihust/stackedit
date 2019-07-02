@@ -4,34 +4,21 @@
 
 ### request
 ```json
-
+Optional(["matchType": Optional("quick-match"), "token": Optional("GT"), "gameType": Optional("solo"), "myAddress": Optional("cb9b58defc54151b9993bd0f23104c34a3fef44c"), "opponentAddress": Optional("a25e6d748da3839236fef432e8770aef7c1f3f8a"), "lastUpdated": Optional(1562080013), "opponentPaymentId": Optional(""), "historyId": Optional("2A056D39-AD1C-4518-8C35-A74CEC3AF20B"), "myScore": Optional(0), "appId": Optional("000009"), "opponentScore": Optional(0), "entryFee": Optional(1.0), "matchId": Optional("9e1420cd-0fb7-4aaf-8d45-4a28d362e3eb."), "myPaymentId": Optional(""), "prizeWinner": Optional("winner"), "myNakamaId": Optional("2aa3b5fb-6cf2-4dc2-9c16-8e00745faf1a"), "prize": Optional(2.0), "opponentNakamaId": Optional("b6c5bb5e-688b-4a84-9448-a9a650ef92cf"), "status": Optional("pending"), "initiated": Optional(1562080013), "chain": Optional("ropsten")])
 ```
 
 ### response
 
-
+```json
+Optional("{"success":true,"data":{"historyId":"2A056D39-AD1C-4518-8C35-A74CEC3AF20B","historyType":"match","matchId":"9e1420cd-0fb7-4aaf-8d45-4a28d362e3eb.","matchType":"quick-match","appID":"000009","gameType":"solo","prizeWinner":"winner","token":"GT","entryFee":1,"prize":2,"myAddress":"cb9b58defc54151b9993bd0f23104c34a3fef44c","myNakamaId":"2aa3b5fb-6cf2-4dc2-9c16-8e00745faf1a","opponentAddress":"a25e6d748da3839236fef432e8770aef7c1f3f8a","opponentNakamaId":"b6c5bb5e-688b-4a84-9448-a9a650ef92cf","status":"pending","chain":"ropsten","initiated":1562080013,"lastUpdated":1562080013}}")
+```
 
 ## update
 
+###
+
 ```json
-{  
-"success":true,  
-"data":{  
-"historyId":"dcc6e1ef162a1f2afef75c3c7a8745bc9df7ad71caf3c782146fa45ea4f46db1",  
-"historyType":"payment",  
-"token":"GT",  
-"myAddress":"0xa25e6d748da3839236fef432e8770aef7c1f3f8a",  
-"paymentType":"send-off-chain",  
-"sourceAddress":"0xa25e6d748da3839236fef432e8770aef7c1f3f8a",  
-"destAddress":"cb9b58defc54151b9993bd0f23104c34a3fef44c",  
-"amount":1000000000000000000,  
-"feeToken":"ETH",  
-"status":"failure",  
-"chain":"mainnet",  
-"initiated":1562079353,  
-"lastUpdated":1562079561  
-}  
-}
+
 ```
 
 
@@ -45,7 +32,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTk3OTA0MywtMTM2NzgzMjMxNSw3Nz
+eyJoaXN0b3J5IjpbLTcyMTE2OTcwNCwtMTM2NzgzMjMxNSw3Nz
 czMjU2MzEsNjM3MDI2OTY3LDE4MzU0MTYyMzMsLTg3MTYxOTAz
 Nl19
 -->
