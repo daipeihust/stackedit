@@ -1,6 +1,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+     <script src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.js"></script>
+  <script>mermaid.initialize({startOnLoad:true});</script>
 </head>
 <body>
   <div class="mermaid">
@@ -35,9 +37,9 @@
 </html>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODE0NDg5NDQsNzM4OTcyODcsMTg5OT
-I4NzMwNiwtODc3MDE2NTI0LDUxMDI5MTMwMiwtODU1NjcxNTQ3
-LDMyMjE5MjQ4NywtMjA4ODc0NjYxMiwtMTYwMjQ0MTAzLDkzNz
-I4OTcsLTEzNjc4MzIzMTUsNzc3MzI1NjMxLDYzNzAyNjk2Nywx
-ODM1NDE2MjMzLC04NzE2MTkwMzZdfQ==
+eyJoaXN0b3J5IjpbMTQyNTA1Mjg4NSw3Mzg5NzI4NywxODk5Mj
+g3MzA2LC04NzcwMTY1MjQsNTEwMjkxMzAyLC04NTU2NzE1NDcs
+MzIyMTkyNDg3LC0yMDg4NzQ2NjEyLC0xNjAyNDQxMDMsOTM3Mj
+g5NywtMTM2NzgzMjMxNSw3NzczMjU2MzEsNjM3MDI2OTY3LDE4
+MzU0MTYyMzMsLTg3MTYxOTAzNl19
 -->
