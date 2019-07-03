@@ -1,9 +1,6 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="mermaid.min.css">
-    <script src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.js"></script>
-  <script>mermaid.initialize({startOnLoad:true});</script>
 </head>
 <body>
   <div class="mermaid">
@@ -34,13 +31,15 @@
     Q --> R(display result)
     R --> End
   </div>
+   <script src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.js"></script>
+  <script>mermaid.initialize({startOnLoad:true});</script>
 </body>
 </html>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4OTcyODcsMTg5OTI4NzMwNiwtODc3MD
-E2NTI0LDUxMDI5MTMwMiwtODU1NjcxNTQ3LDMyMjE5MjQ4Nywt
-MjA4ODc0NjYxMiwtMTYwMjQ0MTAzLDkzNzI4OTcsLTEzNjc4Mz
-IzMTUsNzc3MzI1NjMxLDYzNzAyNjk2NywxODM1NDE2MjMzLC04
-NzE2MTkwMzZdfQ==
+eyJoaXN0b3J5IjpbMTEwMDM4ODg4NSw3Mzg5NzI4NywxODk5Mj
+g3MzA2LC04NzcwMTY1MjQsNTEwMjkxMzAyLC04NTU2NzE1NDcs
+MzIyMTkyNDg3LC0yMDg4NzQ2NjEyLC0xNjAyNDQxMDMsOTM3Mj
+g5NywtMTM2NzgzMjMxNSw3NzczMjU2MzEsNjM3MDI2OTY3LDE4
+MzU0MTYyMzMsLTg3MTYxOTAzNl19
 -->
