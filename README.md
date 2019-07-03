@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="mermaid.min.css">
-    <script src="mermaid.min.js"></script>
+    <script src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.js"></script>
   <script>mermaid.initialize({startOnLoad:true});</script>
 </head>
 <body>
@@ -34,14 +34,13 @@
     Q --> R(display result)
     R --> End
   </div>
-
 </body>
 </html>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxMjEzNTI3LDE4OTkyODczMDYsLTg3Nz
-AxNjUyNCw1MTAyOTEzMDIsLTg1NTY3MTU0NywzMjIxOTI0ODcs
-LTIwODg3NDY2MTIsLTE2MDI0NDEwMyw5MzcyODk3LC0xMzY3OD
-MyMzE1LDc3NzMyNTYzMSw2MzcwMjY5NjcsMTgzNTQxNjIzMywt
-ODcxNjE5MDM2XX0=
+eyJoaXN0b3J5IjpbNzM4OTcyODcsMTg5OTI4NzMwNiwtODc3MD
+E2NTI0LDUxMDI5MTMwMiwtODU1NjcxNTQ3LDMyMjE5MjQ4Nywt
+MjA4ODc0NjYxMiwtMTYwMjQ0MTAzLDkzNzI4OTcsLTEzNjc4Mz
+IzMTUsNzc3MzI1NjMxLDYzNzAyNjk2NywxODM1NDE2MjMzLC04
+NzE2MTkwMzZdfQ==
 -->
