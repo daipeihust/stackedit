@@ -32,15 +32,13 @@
     Q --> R(display result)
     R --> End
   </div>
-  <script src="mermaid.min.js"></script>
-  <script>mermaid.initialize({startOnLoad:true});</script>
 </body>
 </html>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMTExNzcsMTg5OTI4NzMwNiwtODc3MD
-E2NTI0LDUxMDI5MTMwMiwtODU1NjcxNTQ3LDMyMjE5MjQ4Nywt
-MjA4ODc0NjYxMiwtMTYwMjQ0MTAzLDkzNzI4OTcsLTEzNjc4Mz
-IzMTUsNzc3MzI1NjMxLDYzNzAyNjk2NywxODM1NDE2MjMzLC04
-NzE2MTkwMzZdfQ==
+eyJoaXN0b3J5IjpbMTIwMzExOTU5MiwxODk5Mjg3MzA2LC04Nz
+cwMTY1MjQsNTEwMjkxMzAyLC04NTU2NzE1NDcsMzIyMTkyNDg3
+LC0yMDg4NzQ2NjEyLC0xNjAyNDQxMDMsOTM3Mjg5NywtMTM2Nz
+gzMjMxNSw3NzczMjU2MzEsNjM3MDI2OTY3LDE4MzU0MTYyMzMs
+LTg3MTYxOTAzNl19
 -->
