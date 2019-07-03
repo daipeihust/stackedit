@@ -2,6 +2,8 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="mermaid.min.css">
+    <script src="mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true});</script>
 </head>
 <body>
   <div class="mermaid">
@@ -32,13 +34,14 @@
     Q --> R(display result)
     R --> End
   </div>
+
 </body>
 </html>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzExOTU5MiwxODk5Mjg3MzA2LC04Nz
-cwMTY1MjQsNTEwMjkxMzAyLC04NTU2NzE1NDcsMzIyMTkyNDg3
-LC0yMDg4NzQ2NjEyLC0xNjAyNDQxMDMsOTM3Mjg5NywtMTM2Nz
-gzMjMxNSw3NzczMjU2MzEsNjM3MDI2OTY3LDE4MzU0MTYyMzMs
-LTg3MTYxOTAzNl19
+eyJoaXN0b3J5IjpbNzkxMjEzNTI3LDE4OTkyODczMDYsLTg3Nz
+AxNjUyNCw1MTAyOTEzMDIsLTg1NTY3MTU0NywzMjIxOTI0ODcs
+LTIwODg3NDY2MTIsLTE2MDI0NDEwMyw5MzcyODk3LC0xMzY3OD
+MyMzE1LDc3NzMyNTYzMSw2MzcwMjY5NjcsMTgzNTQxNjIzMywt
+ODcxNjE5MDM2XX0=
 -->
