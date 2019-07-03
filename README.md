@@ -1,12 +1,14 @@
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-     <script src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.js"></script>
-  <script>mermaid.initialize({startOnLoad:true});</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+  <script>mermaid.initialize({ startOnLoad: true });</script>
 </head>
+
 <body>
   <div class="mermaid">
-  graph TD
+    graph TD
     A((start)) -->|matchData| B(find match)
     B -->|matchTicket| C(record ticket)
     B -->|failed| End
@@ -34,12 +36,24 @@
     R --> End
   </div>
 </body>
-</html>
+<script>
+  var config = {
+    startOnLoad: true,
+    theme: 'forest',
+    flowchart: {
+      useMaxWidth: false,
+      htmlLabels: true
+    }
+  };
+  mermaid.initialize(config);
+  window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
 
+</html>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNTA1Mjg4NSw3Mzg5NzI4NywxODk5Mj
-g3MzA2LC04NzcwMTY1MjQsNTEwMjkxMzAyLC04NTU2NzE1NDcs
-MzIyMTkyNDg3LC0yMDg4NzQ2NjEyLC0xNjAyNDQxMDMsOTM3Mj
-g5NywtMTM2NzgzMjMxNSw3NzczMjU2MzEsNjM3MDI2OTY3LDE4
-MzU0MTYyMzMsLTg3MTYxOTAzNl19
+eyJoaXN0b3J5IjpbNDg2MDkyNTEzLDE0MjUwNTI4ODUsNzM4OT
+cyODcsMTg5OTI4NzMwNiwtODc3MDE2NTI0LDUxMDI5MTMwMiwt
+ODU1NjcxNTQ3LDMyMjE5MjQ4NywtMjA4ODc0NjYxMiwtMTYwMj
+Q0MTAzLDkzNzI4OTcsLTEzNjc4MzIzMTUsNzc3MzI1NjMxLDYz
+NzAyNjk2NywxODM1NDE2MjMzLC04NzE2MTkwMzZdfQ==
 -->
