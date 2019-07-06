@@ -14,7 +14,7 @@ def generate(dir, depth, file):
             file.write(' ' + path + '\n')
             generate(fullPath, depth + 1, file) 
         else:
-            file.write('[' + path + '](' + fullPath + ')' + '\n')
+            file.write('- [' + path + '](' + fullPath + ')' + '\n')
 
 dir = './'
 with open('README.md', 'w') as README:
